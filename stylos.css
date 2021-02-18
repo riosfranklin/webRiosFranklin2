@@ -475,11 +475,18 @@ progress::-webkit-progress-value{
     width:200px;   
 }
 footer{
-    color: white;
     background-color: var(--first-color);
     text-align: center;
     margin-bottom: var(--header-height);
     padding: .5rem;
+}
+footer small{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+footer a{
+    color: #000000;
 }
 .header {
     position: fixed;
@@ -562,12 +569,6 @@ margin:3px 1rem 0 1rem;
     width: 100%;
     height: auto;
 }
-
-
-
-
-
-
 
 .service-card{
     text-align: center;
