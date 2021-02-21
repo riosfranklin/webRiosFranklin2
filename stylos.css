@@ -430,6 +430,8 @@ progress::-webkit-progress-value{
 @media screen and (min-width: 1024px){
     .full-lg-screen{
         width: 95%;
+        padding-top: 3rem;
+        margin: auto;
         min-height: 100vh;
     }
     .text-lg-center{
